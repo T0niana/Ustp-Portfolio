@@ -1,0 +1,75 @@
+---
+---
+
+@import "jekyll-theme-cayman";
+
+/* 🌸 Soft pink background */
+body {
+  background-color: #fff5f8;
+}
+
+/* 💜 Header gradient (pink → purple) */
+.page-header {
+  background-image: linear-gradient(120deg, #ff9ecf, #c084fc);
+}
+
+/* ✨ Header text */
+.page-header h1,
+.page-header h2 {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+/* 🌷 Main text */
+.main-content {
+  color: #4b2e39;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+/* 💕 Headings */
+.main-content h1,
+.main-content h2,
+.main-content h3 {
+  color: #a855f7;
+  font-weight: 600;
+}
+
+/* 🔗 Links */
+a {
+  color: #ec4899;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* 🌸 Buttons (like download button) */
+.btn {
+  background-color: #ec4899;
+  border-color: #ec4899;
+  color: white;
+}
+
+.btn:hover {
+  background-color: #db2777;
+  border-color: #db2777;
+}
+
+/* 🌷 Subtle card feel */
+.main-content {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(236, 72, 153, 0.08);
+}
+
+/* 💖 Optional: softer hr lines */
+hr {
+  border-color: #fbcfe8;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
